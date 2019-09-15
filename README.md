@@ -1,6 +1,6 @@
 # Mini-Project-Web-Services
 
-<h2>Project Definition</h2>
+<h2>Project Definition :file_folder:</h2>
 
 **Objectives**
 
@@ -34,3 +34,16 @@ The project contains a readme.txt file with the following attributes:
 
 Presentation and Demonstration
 The project solutions are subject to public presentation in class on 26/09/2019, according the plan. 
+
+
+<h2>Authors’ details :bust_in_silhouette:</h2>
+
+* First man: Ian Frost
+* Secound man: Christoffer Dunk
+* Last man: Jonas Pedersen
+
+<h2>Summary :pencil:</h2>
+
+<h2>installation instructions :wrench:</h2>
+
+
