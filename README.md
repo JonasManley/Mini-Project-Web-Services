@@ -8,7 +8,7 @@ The main objective of this task is to provide the students with practical experi
 
 
 
-<h2>Tasks</h2>
+<h3>Tasks</h3>
 
 1.    Create at least one SOAP-based and at least one RESTful web services, which deliver resources, valuable for a selected business. 
 
@@ -18,7 +18,7 @@ The main objective of this task is to provide the students with practical experi
 
 
 
-<h2>Requirements</h2>
+<h3>Requirements</h3>
 
 * This project is mandatory. It is a teamwork. Recommended average size of a group is 3 students. 
 * There is no requirement for using specific programming languages or development environments.
