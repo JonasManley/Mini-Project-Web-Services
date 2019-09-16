@@ -22,6 +22,15 @@ namespace Mini_Project___Web_Services___Soap.Model
             Smoothie strongGuy = new Smoothie("strongGuy", "blueberries", "banana", true);
             Smoothie fitness = new Smoothie("fitness", "banana", "kiwifruit", false);
             Smoothie workHard = new Smoothie("workHard", "mangoes", "peach", false);
+            Smoothie payday = new Smoothie("payday", "strawberries", "blueberries", true);
+            Smoothie palm = new Smoothie("palm", "watermelon", "peach", false);
+            Smoothie beautiful = new Smoothie("beautiful", "passionfruit", "mandarins", true);
+            Smoothie women = new Smoothie("women", "mandarins", "pineapple", false);
+            Smoothie rainyday = new Smoothie("rainyday", "banana", "peach", false);
+            Smoothie painfull = new Smoothie("painfull", "mangoes", "blueberries", true);
+            Smoothie bike = new Smoothie("bike", "mandarins", "mandarins", false);
+            Smoothie publicttransport = new Smoothie("publicttransport", "mangoes", "kiwifruit", false);
+
 
             List<Smoothie> smoothies = new List<Smoothie>();
             smoothies.Add(exotic);
@@ -31,6 +40,14 @@ namespace Mini_Project___Web_Services___Soap.Model
             smoothies.Add(strongGuy);
             smoothies.Add(fitness);
             smoothies.Add(workHard);
+            smoothies.Add(payday);
+            smoothies.Add(palm);
+            smoothies.Add(beautiful);
+            smoothies.Add(women);
+            smoothies.Add(rainyday);
+            smoothies.Add(painfull);
+            smoothies.Add(bike);
+            smoothies.Add(publicttransport);
 
             _smoothies = smoothies;
         }
