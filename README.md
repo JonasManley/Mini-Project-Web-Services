@@ -42,8 +42,27 @@ The project solutions are subject to public presentation in class on 26/09/2019,
 * Secound man: Christoffer Dunk
 * Last man: Jonas Pedersen
 
+
 <h2>Summary :pencil:</h2>
+
+<h3> what is a SOAP and REST - Charactics </h3>
+
+<h3> Usages </h3>
+
+<h3> SOAP VS REST </h3>
+
 
 <h2>installation instructions :wrench:</h2>
 
+<h3>SOAP</h3>
+
+1. Clone the project to your computuer.
+2. Open the project "Mini Project - Web Services - Soap" and Investigate: WebService1.asmx.cs and the model classes.
+3. Open the project "Mini Project - Web Services - Winform" and RUN it.
+- you don't have to run the SOAP before, because you have it locally on your computer (.dll).
+4. Follow the numbers 1-5 to see the functionallity (the usage of the SOAP).
+
+3.a You can also open the project "Mini Project - Web Services - Client" if you want it in a console format instead. 
+
+<h3>REST</h3>
 
