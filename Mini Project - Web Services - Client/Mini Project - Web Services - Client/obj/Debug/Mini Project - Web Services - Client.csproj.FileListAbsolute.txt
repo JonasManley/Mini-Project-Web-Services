@@ -1,0 +1,10 @@
+C:\Users\Jonas\source\repos\Mini Project - Web Services - Client\Mini Project - Web Services - Client\bin\Debug\Mini Project - Web Services - Client.exe.config
+C:\Users\Jonas\source\repos\Mini Project - Web Services - Client\Mini Project - Web Services - Client\bin\Debug\Mini Project - Web Services - Client.exe
+C:\Users\Jonas\source\repos\Mini Project - Web Services - Client\Mini Project - Web Services - Client\bin\Debug\Mini Project - Web Services - Client.pdb
+C:\Users\Jonas\source\repos\Mini Project - Web Services - Client\Mini Project - Web Services - Client\bin\Debug\Mini Project - Web Services - Soap.dll
+C:\Users\Jonas\source\repos\Mini Project - Web Services - Client\Mini Project - Web Services - Client\bin\Debug\Mini Project - Web Services - Soap.pdb
+C:\Users\Jonas\source\repos\Mini Project - Web Services - Client\Mini Project - Web Services - Client\obj\Debug\Mini Project - Web Services - Client.csprojAssemblyReference.cache
+C:\Users\Jonas\source\repos\Mini Project - Web Services - Client\Mini Project - Web Services - Client\obj\Debug\Mini Project - Web Services - Client.csproj.CoreCompileInputs.cache
+C:\Users\Jonas\source\repos\Mini Project - Web Services - Client\Mini Project - Web Services - Client\obj\Debug\Mini Project - Web Services - Client.csproj.CopyComplete
+C:\Users\Jonas\source\repos\Mini Project - Web Services - Client\Mini Project - Web Services - Client\obj\Debug\Mini Project - Web Services - Client.exe
+C:\Users\Jonas\source\repos\Mini Project - Web Services - Client\Mini Project - Web Services - Client\obj\Debug\Mini Project - Web Services - Client.pdb

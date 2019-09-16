@@ -1,0 +1,13 @@
+C:\Users\Jonas\source\repos\Mini Project - Web Services - Winform\Mini Project - Web Services - Winform\bin\Debug\Mini Project - Web Services - Winform.exe.config
+C:\Users\Jonas\source\repos\Mini Project - Web Services - Winform\Mini Project - Web Services - Winform\bin\Debug\Mini Project - Web Services - Winform.exe
+C:\Users\Jonas\source\repos\Mini Project - Web Services - Winform\Mini Project - Web Services - Winform\bin\Debug\Mini Project - Web Services - Winform.pdb
+C:\Users\Jonas\source\repos\Mini Project - Web Services - Winform\Mini Project - Web Services - Winform\obj\Debug\Mini Project - Web Services - Winform.csprojAssemblyReference.cache
+C:\Users\Jonas\source\repos\Mini Project - Web Services - Winform\Mini Project - Web Services - Winform\obj\Debug\Mini_Project___Web_Services___Winform.Form1.resources
+C:\Users\Jonas\source\repos\Mini Project - Web Services - Winform\Mini Project - Web Services - Winform\obj\Debug\Mini_Project___Web_Services___Winform.Properties.Resources.resources
+C:\Users\Jonas\source\repos\Mini Project - Web Services - Winform\Mini Project - Web Services - Winform\obj\Debug\Mini Project - Web Services - Winform.csproj.GenerateResource.cache
+C:\Users\Jonas\source\repos\Mini Project - Web Services - Winform\Mini Project - Web Services - Winform\obj\Debug\Mini Project - Web Services - Winform.csproj.CoreCompileInputs.cache
+C:\Users\Jonas\source\repos\Mini Project - Web Services - Winform\Mini Project - Web Services - Winform\obj\Debug\Mini Project - Web Services - Winform.exe
+C:\Users\Jonas\source\repos\Mini Project - Web Services - Winform\Mini Project - Web Services - Winform\obj\Debug\Mini Project - Web Services - Winform.pdb
+C:\Users\Jonas\source\repos\Mini Project - Web Services - Winform\Mini Project - Web Services - Winform\bin\Debug\Mini Project - Web Services - Soap.dll
+C:\Users\Jonas\source\repos\Mini Project - Web Services - Winform\Mini Project - Web Services - Winform\bin\Debug\Mini Project - Web Services - Soap.pdb
+C:\Users\Jonas\source\repos\Mini Project - Web Services - Winform\Mini Project - Web Services - Winform\obj\Debug\Mini Project - Web Services - Winform.csproj.CopyComplete
