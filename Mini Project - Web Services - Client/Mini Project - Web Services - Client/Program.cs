@@ -27,15 +27,19 @@ namespace Mini_Project___Web_Services___Client
             Console.WriteLine("\r\n");
 
 
-            Console.WriteLine("using the method to get the recipe by a specific name ");
+            Console.WriteLine("using the method to get the recipe by a specific name: exotic");
             Console.WriteLine(Service.getRecipie("exotic"));
             Console.WriteLine("\r\n");
 
 
+            Console.WriteLine("exploring method allows the use to type in two fruits and get the recipes which just one of them have to be used in");
+            Console.WriteLine("Let us see how many recipes uses 'bananas' and 'apples' ");
             List<string> explore = Service.explore("banana", "apple");
+            int counter = 1;
             foreach (var item in explore)
             {
-                Console.WriteLine(item);
+                Console.WriteLine(counter+": "+item);
+                counter++;
             }
 
             Console.ReadLine();

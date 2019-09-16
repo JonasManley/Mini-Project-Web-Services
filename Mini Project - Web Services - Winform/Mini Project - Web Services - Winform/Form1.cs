@@ -14,7 +14,8 @@ namespace Mini_Project___Web_Services___Winform
     {
         Mini_Project___Web_Services___Soap.WebService1 Service = new Mini_Project___Web_Services___Soap.WebService1();
         List<string> smoothiesList;
-    
+        List<string> fruitList;
+
 
         public Form1()
         {
@@ -44,7 +45,7 @@ namespace Mini_Project___Web_Services___Winform
             smoothiesList = Service.explore(fruit1, fruit2);
             foreach (var item in smoothiesList)
             {
-                listView1.Items.Add(item);
+                smoothieList.Items.Add(item);
             }
         }
 
@@ -110,6 +111,15 @@ namespace Mini_Project___Web_Services___Winform
         private void TextBox3_TextChanged_1(object sender, EventArgs e)
         {
             label1.Font = new System.Drawing.Font(label1.Font.Name, 24F);
+        }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            fruitList = Service.fruits();
+            foreach (var item in fruitList)
+            {
+                fruitsList.Items.Add(item);
+            }
         }
     }
 }
