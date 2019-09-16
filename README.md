@@ -58,8 +58,7 @@ The project solutions are subject to public presentation in class on 26/09/2019,
 
 1. Clone the project to your computuer.
 2. Open the project "Mini Project - Web Services - Soap" and Investigate: WebService1.asmx.cs and the model classes.
-3. Open the project "Mini Project - Web Services - Winform" and RUN it.
-- you don't have to run the SOAP before, because you have it locally on your computer (.dll).
+3. Open the project "Mini Project - Web Services - Winform" and RUN it. _you don't have to run the SOAP before, because you have it locally on your computer (.dll)._
 4. Follow the numbers 1-5 to see the functionallity (the usage of the SOAP).
 
 3.a You can also open the project "Mini Project - Web Services - Client" if you want it in a console format instead. 
