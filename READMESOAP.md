@@ -1,4 +1,4 @@
-<h1> SOAP CREATION </h1>
+<h1> SOAP CONSUMING </h1>
 
 
 Adding the webservice .dll file to the client _(becouse we want to run it localy)_
