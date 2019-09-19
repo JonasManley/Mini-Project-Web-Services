@@ -47,9 +47,9 @@ The project solutions are subject to public presentation in class on 26/09/2019,
 
 <h3> what is a SOAP and REST - Charactics </h3>
 
-<h2>SOAP</h2>
+<h4>SOAP</h4>
 
-<h2>REST</h2>
+<h4>REST</h4>
 
 <h3> Usages </h3>
 
