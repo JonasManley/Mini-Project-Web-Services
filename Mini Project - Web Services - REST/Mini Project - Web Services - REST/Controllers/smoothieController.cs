@@ -34,7 +34,7 @@ namespace Mini_Project___Web_Services___REST.Controllers
         /// <param name="fruit2"></param>
         /// <param name="iceOrNot"></param>
         /// <returns>Giving 2 fruits and ice or not - give you a match if we have a smoothie</returns>
-        public string Get(string fruit1, string fruit2, bool iceOrNot)
+        public string GET(string fruit1, string fruit2, bool iceOrNot)
         {
             Smoothie smoothie = new Smoothie(" ", fruit1, fruit2, iceOrNot);
 
