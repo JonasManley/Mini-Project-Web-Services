@@ -12,11 +12,6 @@ namespace Mini_Project___Web_Services___REST.Controllers
     {
         ListOfSmoothies SmoothieList = new ListOfSmoothies();
 
-        // POST: api/smoothie
-        public void Post([FromBody]string value)
-        {
-        }
-
         /// <summary>
         /// GET: api/smoothie
         /// </summary>
