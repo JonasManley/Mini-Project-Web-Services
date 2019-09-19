@@ -21,7 +21,7 @@ namespace Mini_Project___Web_Services___REST.Controllers
         /// GET: api/smoothie
         /// </summary>
         /// <returns>a list of all avalible fruits</returns>
-        public List<string> Get()
+        public List<string> GET()
         {
             return SmoothieList.fruits();
         }
