@@ -1,10 +1,15 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
+using System.Net;
+using System.Net.Http;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -12,9 +17,9 @@ namespace Mini_Project___Web_Services___Winform
 {
     public partial class Form1 : Form
     {
-        Mini_Project___Web_Services___REST.Controllers.smoothieController Service = new Mini_Project___Web_Services___REST.Controllers.smoothieController();
-        List<string> smoothiesList;
-        List<string> fruitList;
+        APIcontroller APIcontroller = new APIcontroller();
+        
+
 
 
         public Form1()
@@ -39,14 +44,14 @@ namespace Mini_Project___Web_Services___Winform
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            string fruit1 = Fruit1.Text;
-            string fruit2 = Fruit2.Text;
-            bool ice = checkBox1.Checked;
-            smoothiesList = Service.GET(fruit1, fruit2);
-            foreach (var item in smoothiesList)
-            {
-                smoothieList.Items.Add(item);
-            }
+            //string fruit1 = Fruit1.Text;
+            //string fruit2 = Fruit2.Text;
+            //bool ice = checkBox1.Checked;
+            //smoothiesList = Service.GET(fruit1, fruit2);
+            //foreach (var item in smoothiesList)
+            //{
+            //    smoothieList.Items.Add(item);
+            //}
         }
 
        
@@ -94,11 +99,11 @@ namespace Mini_Project___Web_Services___Winform
 
         private void Button2_Click_1(object sender, EventArgs e)
         {
-            string recipename = RecipeBox.Text;
+            //string recipename = RecipeBox.Text;
 
-            string recipe = Service.GET(recipename);
+            //string recipe = Service.GET(recipename);
 
-            listView2.Items.Add(recipe);
+            //listView2.Items.Add(recipe);
         }
 
         private void ListView2_SelectedIndexChanged(object sender, EventArgs e)
@@ -115,11 +120,23 @@ namespace Mini_Project___Web_Services___Winform
 
         private void Button3_Click(object sender, EventArgs e)
         {
-            fruitList = Service.GET();
-            foreach (var item in fruitList)
+            var returnedFruits = APIcontroller.Getfruites("https://miniproject-webservices-rest20190924043310.azurewebsites.net/api/smoothie");
+            var trimedList = Regex.Replace(returnedFruits, @"[^\w\@-]", " ", RegexOptions.None, TimeSpan.FromSeconds(1.5));
+            string[] fruitList = trimedList.Split(' ');
+
+            foreach (var fruit in fruitList)
             {
-                fruitsList.Items.Add(item);
+                if (fruit.Length > 0)
+                {
+                    fruitsList.Items.Add(fruit);
+                }
             }
+        }
+
+
+        private void FruitsList_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

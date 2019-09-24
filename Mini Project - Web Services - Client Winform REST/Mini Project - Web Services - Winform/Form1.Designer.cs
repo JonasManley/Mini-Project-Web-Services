@@ -392,6 +392,7 @@
             this.fruitsList.Name = "fruitsList";
             this.fruitsList.Size = new System.Drawing.Size(129, 316);
             this.fruitsList.TabIndex = 1;
+            this.fruitsList.SelectedIndexChanged += new System.EventHandler(this.FruitsList_SelectedIndexChanged);
             // 
             // button3
             // 

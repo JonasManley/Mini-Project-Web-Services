@@ -48,3 +48,20 @@ C:\Users\Jonas\Documents\GitHub\Mini-Project-Web-Services\Mini Project - Web Ser
 C:\Users\Jonas\Documents\GitHub\Mini-Project-Web-Services\Mini Project - Web Services - Winform REST\Mini Project - Web Services - Winform\obj\Debug\Mini Project - Web Services - Winform.csproj.CopyComplete
 C:\Users\Jonas\Documents\GitHub\Mini-Project-Web-Services\Mini Project - Web Services - Winform REST\Mini Project - Web Services - Winform\obj\Debug\Mini Project - Web Services - Winform.exe
 C:\Users\Jonas\Documents\GitHub\Mini-Project-Web-Services\Mini Project - Web Services - Winform REST\Mini Project - Web Services - Winform\obj\Debug\Mini Project - Web Services - Winform.pdb
+C:\Users\Jonas\Documents\GitHub\Mini-Project-Web-Services\Mini Project - Web Services - Client Winform REST\Mini Project - Web Services - Winform\obj\Debug\Mini Project - Web Services - Winform.csprojAssemblyReference.cache
+C:\Users\Jonas\Documents\GitHub\Mini-Project-Web-Services\Mini Project - Web Services - Client Winform REST\Mini Project - Web Services - Winform\obj\Debug\Mini_Project___Web_Services___Winform.Form1.resources
+C:\Users\Jonas\Documents\GitHub\Mini-Project-Web-Services\Mini Project - Web Services - Client Winform REST\Mini Project - Web Services - Winform\obj\Debug\Mini_Project___Web_Services___Winform.Properties.Resources.resources
+C:\Users\Jonas\Documents\GitHub\Mini-Project-Web-Services\Mini Project - Web Services - Client Winform REST\Mini Project - Web Services - Winform\obj\Debug\Mini Project - Web Services - Winform.csproj.GenerateResource.cache
+C:\Users\Jonas\Documents\GitHub\Mini-Project-Web-Services\Mini Project - Web Services - Client Winform REST\Mini Project - Web Services - Winform\obj\Debug\Mini Project - Web Services - Winform.csproj.CoreCompileInputs.cache
+C:\Users\Jonas\Documents\GitHub\Mini-Project-Web-Services\Mini Project - Web Services - Client Winform REST\Mini Project - Web Services - Winform\obj\Debug\Mini Project - Web Services - Winform.exe
+C:\Users\Jonas\Documents\GitHub\Mini-Project-Web-Services\Mini Project - Web Services - Client Winform REST\Mini Project - Web Services - Winform\obj\Debug\Mini Project - Web Services - Winform.pdb
+C:\Users\Jonas\Documents\GitHub\Mini-Project-Web-Services\Mini Project - Web Services - Client Winform REST\Mini Project - Web Services - Winform\bin\Debug\Mini Project - Web Services - Winform.exe.config
+C:\Users\Jonas\Documents\GitHub\Mini-Project-Web-Services\Mini Project - Web Services - Client Winform REST\Mini Project - Web Services - Winform\bin\Debug\Mini Project - Web Services - Winform.exe
+C:\Users\Jonas\Documents\GitHub\Mini-Project-Web-Services\Mini Project - Web Services - Client Winform REST\Mini Project - Web Services - Winform\bin\Debug\Mini Project - Web Services - Winform.pdb
+C:\Users\Jonas\Documents\GitHub\Mini-Project-Web-Services\Mini Project - Web Services - Client Winform REST\Mini Project - Web Services - Winform\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Jonas\Documents\GitHub\Mini-Project-Web-Services\Mini Project - Web Services - Client Winform REST\Mini Project - Web Services - Winform\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Jonas\Documents\GitHub\Mini-Project-Web-Services\Mini Project - Web Services - Client Winform REST\Mini Project - Web Services - Winform\bin\Debug\System.Web.Http.dll
+C:\Users\Jonas\Documents\GitHub\Mini-Project-Web-Services\Mini Project - Web Services - Client Winform REST\Mini Project - Web Services - Winform\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Jonas\Documents\GitHub\Mini-Project-Web-Services\Mini Project - Web Services - Client Winform REST\Mini Project - Web Services - Winform\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Jonas\Documents\GitHub\Mini-Project-Web-Services\Mini Project - Web Services - Client Winform REST\Mini Project - Web Services - Winform\bin\Debug\System.Web.Http.xml
+C:\Users\Jonas\Documents\GitHub\Mini-Project-Web-Services\Mini Project - Web Services - Client Winform REST\Mini Project - Web Services - Winform\obj\Debug\Mini Project - Web Services - Winform.csproj.CopyComplete
