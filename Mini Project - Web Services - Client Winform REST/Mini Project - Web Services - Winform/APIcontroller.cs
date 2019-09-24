@@ -8,10 +8,14 @@ using System.Threading.Tasks;
 
 namespace Mini_Project___Web_Services___Winform
 {
+    /// <summary>
+    /// Contains all the different call made to the REST 
+    /// </summary>
     class APIcontroller
     {
 
-        public static string FruitsURL = "https://miniproject-webservices-rest20190924043310.azurewebsites.net/api/smoothie"; //variable til stien og metoden
+        public static string FruitsURL = "https://miniproject-webservices-rest20190924043310.azurewebsites.net/api/smoothie";
+        public static string CanMakeURL = "https://miniproject-webservices-rest20190924043310.azurewebsites.net/api/smoothie?fruit1={fruit1}&fruit2={fruit2}&iceOrNot={iceOrNot}";
 
 
         /// <summary>
