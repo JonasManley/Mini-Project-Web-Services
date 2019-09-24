@@ -12,7 +12,7 @@ namespace Mini_Project___Web_Services___Winform
 {
     public partial class Form1 : Form
     {
-        Mini_Project___Web_Services___Soap.WebService1 Service = new Mini_Project___Web_Services___Soap.WebService1();
+        SmoothieService.WebService1SoapClient Service = new SmoothieService.WebService1SoapClient("WebService1Soap");
         List<string> smoothiesList;
         List<string> fruitList;
 
@@ -120,6 +120,11 @@ namespace Mini_Project___Web_Services___Winform
             {
                 fruitsList.Items.Add(item);
             }
+        }
+
+        private void Label13_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

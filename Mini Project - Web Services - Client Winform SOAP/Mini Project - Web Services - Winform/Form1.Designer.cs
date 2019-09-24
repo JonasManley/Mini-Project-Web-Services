@@ -62,6 +62,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -107,9 +108,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(748, 172);
+            this.button1.Location = new System.Drawing.Point(748, 193);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(75, 26);
             this.button1.TabIndex = 4;
             this.button1.Text = "Search";
             this.button1.UseVisualStyleBackColor = true;
@@ -143,7 +144,7 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(445, 32);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(378, 134);
+            this.groupBox1.Size = new System.Drawing.Size(378, 152);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Explore Smooties";
@@ -236,6 +237,7 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.label13);
             this.groupBox3.Controls.Add(this.Fruit1);
             this.groupBox3.Controls.Add(this.label7);
             this.groupBox3.Controls.Add(this.checkBox2);
@@ -245,7 +247,7 @@
             this.groupBox3.Controls.Add(this.label8);
             this.groupBox3.Location = new System.Drawing.Point(445, 32);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(378, 134);
+            this.groupBox3.Size = new System.Drawing.Size(378, 152);
             this.groupBox3.TabIndex = 6;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Explore Smooties";
@@ -419,13 +421,23 @@
             // 
             this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(829, 169);
+            this.textBox6.Location = new System.Drawing.Point(829, 178);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(22, 31);
             this.textBox6.TabIndex = 8;
             this.textBox6.Text = "3";
             this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox6.TextChanged += new System.EventHandler(this.TextBox3_TextChanged_1);
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(33, 121);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(239, 13);
+            this.label13.TabIndex = 6;
+            this.label13.Text = "OBS! Case sensetive! write with lowercase letters";
+            this.label13.Click += new System.EventHandler(this.Label13_Click);
             // 
             // Form1
             // 
@@ -496,6 +508,7 @@
         private System.Windows.Forms.ListBox fruitsList;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Label label13;
     }
 }
 
