@@ -18,3 +18,10 @@ C:\Users\Jonas\Documents\GitHub\Mini-Project-Web-Services\Mini Project - Web Ser
 C:\Users\Jonas\Documents\GitHub\Mini-Project-Web-Services\Mini Project - Web Services - Client\Mini Project - Web Services - Client\obj\Debug\Mini Project - Web Services - Client.csproj.CopyComplete
 C:\Users\Jonas\Documents\GitHub\Mini-Project-Web-Services\Mini Project - Web Services - Client\Mini Project - Web Services - Client\obj\Debug\Mini Project - Web Services - Client.exe
 C:\Users\Jonas\Documents\GitHub\Mini-Project-Web-Services\Mini Project - Web Services - Client\Mini Project - Web Services - Client\obj\Debug\Mini Project - Web Services - Client.pdb
+C:\Users\Jonas\Documents\GitHub\Mini-Project-Web-Services\Mini Project - Web Services - Client SOAP\Mini Project - Web Services - Client\bin\Debug\Mini Project - Web Services - Client.exe.config
+C:\Users\Jonas\Documents\GitHub\Mini-Project-Web-Services\Mini Project - Web Services - Client SOAP\Mini Project - Web Services - Client\bin\Debug\Mini Project - Web Services - Client.exe
+C:\Users\Jonas\Documents\GitHub\Mini-Project-Web-Services\Mini Project - Web Services - Client SOAP\Mini Project - Web Services - Client\bin\Debug\Mini Project - Web Services - Client.pdb
+C:\Users\Jonas\Documents\GitHub\Mini-Project-Web-Services\Mini Project - Web Services - Client SOAP\Mini Project - Web Services - Client\obj\Debug\Mini Project - Web Services - Client.csprojAssemblyReference.cache
+C:\Users\Jonas\Documents\GitHub\Mini-Project-Web-Services\Mini Project - Web Services - Client SOAP\Mini Project - Web Services - Client\obj\Debug\Mini Project - Web Services - Client.csproj.CoreCompileInputs.cache
+C:\Users\Jonas\Documents\GitHub\Mini-Project-Web-Services\Mini Project - Web Services - Client SOAP\Mini Project - Web Services - Client\obj\Debug\Mini Project - Web Services - Client.exe
+C:\Users\Jonas\Documents\GitHub\Mini-Project-Web-Services\Mini Project - Web Services - Client SOAP\Mini Project - Web Services - Client\obj\Debug\Mini Project - Web Services - Client.pdb
