@@ -46,8 +46,6 @@ The project solutions are subject to public presentation in class on 26/09/2019,
 <h2>Summary :pencil:</h2>
 
 
-
-
 <h2>installation instructions :wrench:</h2>
 
 <h3>Generel</h3>
@@ -56,14 +54,14 @@ The project solutions are subject to public presentation in class on 26/09/2019,
 <h3>SOAP</h3>
 
 1. _**(Optional)**_ Open the project "Mini Project - Web Services - Soap api" and Investigate: WebService1.asmx.cs and the model classes.
-2. Open the project "Mini Project - Web Services - Client Winform SOAP" and RUN it. _you don't have to run the SOAP before, because you have it locally on your computer (.dll)._
-3. Follow the numbers 1-5 to see the functionallity work (the usage of the SOAP).
+2. Open the project "Mini Project - Web Services - Client Winform SOAP" and RUN it. _you don't have to run the SOAP before, because its hosted on Azure and consumed with the client._
+3. Follow the numbers 1-5 to see the functionallity work (the usage of the SOAP). ATTENTION! the program is case sensetive. 
 
 _**You can also open the project "Mini Project - Web Services - Client" if you want it in a console format instead._
 
 <h3>REST</h3>
 
-1. _**(Optional)**_ Open the project "Mini Project - Web Services - REST api" and Investigate: WebService1.asmx.cs and the model classes.
+1. _**(Optional)**_ Open the project "Mini Project - Web Services - REST api" and Investigate: WebService1.asmx.cs, the model classes and controllers _if you want_.
 2. Open the project "Mini Project - Web Services - Client Winform REST" and RUN it.
 3. Follow the numbers 1-5 to see the functionallity work (the usage of the REST).
 
