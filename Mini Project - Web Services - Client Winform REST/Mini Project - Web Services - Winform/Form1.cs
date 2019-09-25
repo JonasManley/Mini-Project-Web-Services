@@ -50,15 +50,19 @@ namespace Mini_Project___Web_Services___Winform
             bool ice = IceBox.Checked;
          
             
-            string smoothie = APIcontroller.GetSmoothies($"https://miniproject-webservices-rest20190924043310.azurewebsites.net/api/smoothie?fruit1={fruit1}&fruit2={fruit2}&iceOrNot={ice}");
-            if (smoothie != "null")
+
+
+            string getSmoothie = APIcontroller.GetMethod($"https://miniproject-webservices-rest20190924043310.azurewebsites.net/api/smoothie?fruit1={fruit1}&fruit2={fruit2}&iceOrNot={ice}");
+            if (getSmoothie != "null")
             {
-                smoothieList.Items.Add(smoothie);
+                smoothieList.Items.Add(getSmoothie);
+
             }
             else
             {
                 MessageBox.Show("Smoothie not found, please try agian..");
             }
+            
         }
 
        
@@ -106,11 +110,18 @@ namespace Mini_Project___Web_Services___Winform
 
         private void Button2_Click_1(object sender, EventArgs e)
         {
-            //string recipename = RecipeBox.Text;
+            string recipeName = RecipeBox.Text;
 
-            //string recipe = Service.GET(recipename);
-
-            //listView2.Items.Add(recipe);
+            string getRecipeName = APIcontroller.GetMethod($"https://miniproject-webservices-rest20190924043310.azurewebsites.net/api/smoothie?name={recipeName}");
+            if(getRecipeName != "null")
+            {
+                RecipeItems.Items.Add(getRecipeName);
+            }
+            else
+            {
+                MessageBox.Show("Name not found.. please try agian");
+            }
+            
         }
 
         private void ListView2_SelectedIndexChanged(object sender, EventArgs e)
@@ -127,7 +138,7 @@ namespace Mini_Project___Web_Services___Winform
 
         private void Button3_Click(object sender, EventArgs e)
         {
-            var returnedFruits = APIcontroller.Getfruites("https://miniproject-webservices-rest20190924043310.azurewebsites.net/api/smoothie");
+            var returnedFruits = APIcontroller.GetMethod("https://miniproject-webservices-rest20190924043310.azurewebsites.net/api/smoothie");
             var trimedList = Regex.Replace(returnedFruits, @"[^\w\@-]", " ", RegexOptions.None, TimeSpan.FromSeconds(1.5));
             string[] fruitList = trimedList.Split(' ');
 
@@ -140,8 +151,12 @@ namespace Mini_Project___Web_Services___Winform
             }
         }
 
-
         private void FruitsList_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TextBox7_TextChanged(object sender, EventArgs e)
         {
 
         }
