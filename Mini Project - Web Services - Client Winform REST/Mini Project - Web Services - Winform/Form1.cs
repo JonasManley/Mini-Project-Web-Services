@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using Mini_Project___Web_Services___Winform.Model;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -44,14 +45,15 @@ namespace Mini_Project___Web_Services___Winform
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            //string fruit1 = Fruit1.Text;
-            //string fruit2 = Fruit2.Text;
-            //bool ice = checkBox1.Checked;
-            //smoothiesList = Service.GET(fruit1, fruit2);
-            //foreach (var item in smoothiesList)
-            //{
-            //    smoothieList.Items.Add(item);
-            //}
+            string fruit1 = Fruit1.Text;
+            string fruit2 = Fruit2.Text;
+            bool ice = checkBox1.Checked;
+            string smoothie = APIcontroller.GetSmoothies(fruit1, fruit2, ice);
+            
+           
+              smoothieList.Items.Add(smoothie);
+            
+            
         }
 
        

@@ -42,7 +42,7 @@ namespace Mini_Project___Web_Services___REST.Controllers
                     return item.ToString();
                 }
             }
-            return "No smoothie found";
+            return null;
         }
 
         /// <summary>

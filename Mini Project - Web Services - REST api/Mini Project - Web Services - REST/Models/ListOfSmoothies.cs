@@ -21,6 +21,7 @@ namespace Mini_Project___Web_Services___REST.Models
             Smoothie strongGuy = new Smoothie("strongGuy", "blueberries", "banana", true);
             Smoothie fitness = new Smoothie("fitness", "banana", "kiwifruit", false);
             Smoothie workHard = new Smoothie("workHard", "mangoes", "peach", false);
+            Smoothie strongmix = new Smoothie("sunday", "banana", "apple", true);
 
             List<Smoothie> smoothies = new List<Smoothie>();
             smoothies.Add(exotic);
@@ -30,6 +31,7 @@ namespace Mini_Project___Web_Services___REST.Models
             smoothies.Add(strongGuy);
             smoothies.Add(fitness);
             smoothies.Add(workHard);
+            smoothies.Add(strongmix);
 
             _smoothies = smoothies;
         }
