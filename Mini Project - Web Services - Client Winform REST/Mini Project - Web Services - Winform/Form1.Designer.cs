@@ -37,7 +37,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.listView2 = new System.Windows.Forms.ListView();
+            this.RecipeItems = new System.Windows.Forms.ListView();
             this.SearchRecepie = new System.Windows.Forms.Button();
             this.RecipeBox = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -151,7 +151,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.listView2);
+            this.groupBox2.Controls.Add(this.RecipeItems);
             this.groupBox2.Controls.Add(this.SearchRecepie);
             this.groupBox2.Controls.Add(this.RecipeBox);
             this.groupBox2.Controls.Add(this.label5);
@@ -165,17 +165,17 @@
             this.groupBox2.Text = "Smootie";
             this.groupBox2.Enter += new System.EventHandler(this.GroupBox2_Enter);
             // 
-            // listView2
+            // RecipeItems
             // 
-            this.listView2.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
-            this.listView2.HideSelection = false;
-            this.listView2.Location = new System.Drawing.Point(18, 126);
-            this.listView2.Name = "listView2";
-            this.listView2.Size = new System.Drawing.Size(175, 184);
-            this.listView2.TabIndex = 7;
-            this.listView2.UseCompatibleStateImageBehavior = false;
-            this.listView2.View = System.Windows.Forms.View.Tile;
-            this.listView2.SelectedIndexChanged += new System.EventHandler(this.ListView2_SelectedIndexChanged);
+            this.RecipeItems.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
+            this.RecipeItems.HideSelection = false;
+            this.RecipeItems.Location = new System.Drawing.Point(18, 126);
+            this.RecipeItems.Name = "RecipeItems";
+            this.RecipeItems.Size = new System.Drawing.Size(175, 184);
+            this.RecipeItems.TabIndex = 7;
+            this.RecipeItems.UseCompatibleStateImageBehavior = false;
+            this.RecipeItems.View = System.Windows.Forms.View.Tile;
+            this.RecipeItems.SelectedIndexChanged += new System.EventHandler(this.ListView2_SelectedIndexChanged);
             // 
             // SearchRecepie
             // 
@@ -486,7 +486,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button SearchRecepie;
-        private System.Windows.Forms.ListView listView2;
+        private System.Windows.Forms.ListView RecipeItems;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox one;
