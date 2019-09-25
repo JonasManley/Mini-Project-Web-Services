@@ -15,7 +15,9 @@ namespace Mini_Project___Web_Services___REST.Models
         public ListOfSmoothies()
         {
             Smoothie exotic = new Smoothie("exotic", "passionfruit", "kiwifruit", true);
+            Smoothie exotic1 = new Smoothie("exotic", "kiwifruit", "passionfruit", true);
             Smoothie sunday = new Smoothie("sunday", "banana", "oranges", true);
+            Smoothie sunday1 = new Smoothie("sunday", "oranges", "banana", true);
             Smoothie sexOnTheBeach = new Smoothie("sexOnTheBeach", "strawberries", "pineapple", true);
             Smoothie easy = new Smoothie("easy", "pineapple", "banana", true);
             Smoothie strongGuy = new Smoothie("strongGuy", "blueberries", "banana", true);
@@ -25,7 +27,9 @@ namespace Mini_Project___Web_Services___REST.Models
 
             List<Smoothie> smoothies = new List<Smoothie>();
             smoothies.Add(exotic);
+            smoothies.Add(exotic1);
             smoothies.Add(sunday);
+            smoothies.Add(sunday1);
             smoothies.Add(sexOnTheBeach);
             smoothies.Add(easy);
             smoothies.Add(strongGuy);

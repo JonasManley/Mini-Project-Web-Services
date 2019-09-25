@@ -84,7 +84,7 @@ namespace Mini_Project___Web_Services___REST.Controllers
                     return item.recipie;
                 }
             }
-            return "no smoothies with that name is found, please try agian..";
+            return null;
         }
 
     }

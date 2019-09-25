@@ -51,13 +51,14 @@ namespace Mini_Project___Web_Services___Winform
          
             
             string smoothie = APIcontroller.GetSmoothies($"https://miniproject-webservices-rest20190924043310.azurewebsites.net/api/smoothie?fruit1={fruit1}&fruit2={fruit2}&iceOrNot={ice}");
-            if (smoothie == null)
+            if (smoothie != "null")
+            {
+                smoothieList.Items.Add(smoothie);
+            }
+            else
             {
                 MessageBox.Show("Smoothie not found, please try agian..");
             }
-            smoothieList.Items.Add(smoothie);
-            
-            
         }
 
        

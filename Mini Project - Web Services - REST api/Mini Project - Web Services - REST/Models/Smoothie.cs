@@ -51,7 +51,7 @@ namespace Mini_Project___Web_Services___REST.Models
 
         public string recipie
         {
-            get { return "ingredients: " + " " + fruit1 + " " + fruit2 + " " + iceOrNot; }
+            get { return "ingredients: " + " " + fruit1 + " " + fruit2 + " " + "has ice: " + iceOrNot; }
         }
     }
 }
