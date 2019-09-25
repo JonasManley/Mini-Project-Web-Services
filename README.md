@@ -45,6 +45,9 @@ The project solutions are subject to public presentation in class on 26/09/2019,
 
 <h2>Summary :pencil:</h2>
 
+We've been working with both SOAP and REST webservices in this assignment. Otherthen creating webservices we also consumed them with clients and took use of the methods. 
+The logic within the webservices is business related. 
+
 
 <h2>installation instructions :wrench:</h2>
 
