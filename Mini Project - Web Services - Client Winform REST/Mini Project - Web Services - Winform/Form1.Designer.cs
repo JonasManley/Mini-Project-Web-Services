@@ -38,7 +38,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.listView2 = new System.Windows.Forms.ListView();
-            this.button2 = new System.Windows.Forms.Button();
+            this.SearchRecepie = new System.Windows.Forms.Button();
             this.RecipeBox = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -47,7 +47,7 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.Fruit1 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.IceBox = new System.Windows.Forms.CheckBox();
             this.Fruit2 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -152,7 +152,7 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.listView2);
-            this.groupBox2.Controls.Add(this.button2);
+            this.groupBox2.Controls.Add(this.SearchRecepie);
             this.groupBox2.Controls.Add(this.RecipeBox);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.label6);
@@ -177,15 +177,15 @@
             this.listView2.View = System.Windows.Forms.View.Tile;
             this.listView2.SelectedIndexChanged += new System.EventHandler(this.ListView2_SelectedIndexChanged);
             // 
-            // button2
+            // SearchRecepie
             // 
-            this.button2.Location = new System.Drawing.Point(124, 42);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(66, 23);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "Get recipe";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.Button2_Click_1);
+            this.SearchRecepie.Location = new System.Drawing.Point(124, 42);
+            this.SearchRecepie.Name = "SearchRecepie";
+            this.SearchRecepie.Size = new System.Drawing.Size(66, 23);
+            this.SearchRecepie.TabIndex = 6;
+            this.SearchRecepie.Text = "Get recipe";
+            this.SearchRecepie.UseVisualStyleBackColor = true;
+            this.SearchRecepie.Click += new System.EventHandler(this.Button2_Click_1);
             // 
             // RecipeBox
             // 
@@ -238,7 +238,7 @@
             // 
             this.groupBox3.Controls.Add(this.Fruit1);
             this.groupBox3.Controls.Add(this.label7);
-            this.groupBox3.Controls.Add(this.checkBox2);
+            this.groupBox3.Controls.Add(this.IceBox);
             this.groupBox3.Controls.Add(this.Fruit2);
             this.groupBox3.Controls.Add(this.label10);
             this.groupBox3.Controls.Add(this.label9);
@@ -268,16 +268,16 @@
             this.label7.TabIndex = 5;
             this.label7.Text = "Fruit 2";
             // 
-            // checkBox2
+            // IceBox
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(293, 95);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(47, 17);
-            this.checkBox2.TabIndex = 3;
-            this.checkBox2.Text = "Ice?";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            this.checkBox2.CheckedChanged += new System.EventHandler(this.CheckBox1_CheckedChanged);
+            this.IceBox.AutoSize = true;
+            this.IceBox.Location = new System.Drawing.Point(293, 95);
+            this.IceBox.Name = "IceBox";
+            this.IceBox.Size = new System.Drawing.Size(47, 17);
+            this.IceBox.TabIndex = 3;
+            this.IceBox.Text = "Ice?";
+            this.IceBox.UseVisualStyleBackColor = true;
+            this.IceBox.CheckedChanged += new System.EventHandler(this.CheckBox1_CheckedChanged);
             // 
             // Fruit2
             // 
@@ -480,12 +480,12 @@
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.TextBox Fruit1;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox IceBox;
         private System.Windows.Forms.TextBox Fruit2;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button SearchRecepie;
         private System.Windows.Forms.ListView listView2;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;

@@ -47,10 +47,14 @@ namespace Mini_Project___Web_Services___Winform
         {
             string fruit1 = Fruit1.Text;
             string fruit2 = Fruit2.Text;
-            bool ice = checkBox1.Checked;
-            string smoothie = APIcontroller.GetSmoothies($"https://miniproject-webservices-rest20190924043310.azurewebsites.net/api/smoothie?fruit1={fruit1}&fruit2={fruit2}&iceOrNot={ice}");
+            bool ice = IceBox.Checked;
+         
             
-           
+            string smoothie = APIcontroller.GetSmoothies($"https://miniproject-webservices-rest20190924043310.azurewebsites.net/api/smoothie?fruit1={fruit1}&fruit2={fruit2}&iceOrNot={ice}");
+            if (smoothie == null)
+            {
+                MessageBox.Show("Smoothie not found, please try agian..");
+            }
             smoothieList.Items.Add(smoothie);
             
             

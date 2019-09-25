@@ -21,7 +21,7 @@ namespace Mini_Project___Web_Services___REST.Models
             Smoothie strongGuy = new Smoothie("strongGuy", "blueberries", "banana", true);
             Smoothie fitness = new Smoothie("fitness", "banana", "kiwifruit", false);
             Smoothie workHard = new Smoothie("workHard", "mangoes", "peach", false);
-            Smoothie strongmix = new Smoothie("sunday", "banana", "apple", true);
+            Smoothie strongmix = new Smoothie("dummy", "banana", "apple", true);
 
             List<Smoothie> smoothies = new List<Smoothie>();
             smoothies.Add(exotic);

@@ -27,7 +27,7 @@ namespace Mini_Project___Web_Services___REST.Models
 
         public override string ToString()
         {
-            return "Smootihe: " + _name + " with the ingredients: " + _fruit1 + " " + _fruit2 + " " + "ice: " + _iceOrNot;
+            return "Smootihe: " + _name;
         }
 
         public string name
@@ -51,7 +51,7 @@ namespace Mini_Project___Web_Services___REST.Models
 
         public string recipie
         {
-            get { return "Name of Smoothie: " + _name; }
+            get { return "ingredients: " + " " + fruit1 + " " + fruit2 + " " + iceOrNot; }
         }
     }
 }
