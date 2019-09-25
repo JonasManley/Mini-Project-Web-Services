@@ -52,15 +52,14 @@ namespace Mini_Project___Web_Services___Winform
         /// <param name="url"></param>
         /// <returns></returns>
         /// 
-        public string GetSmoothies(string fruit1, string fruit2, bool iceOrNot)
+        public string GetSmoothies(string url)
         {
-            var request = (HttpWebRequest)WebRequest.Create($"https://miniproject-webservices-rest20190924043310.azurewebsites.net/api/smoothie?fruit1={fruit1}&fruit2={fruit2}&iceOrNot={iceOrNot}");
+            var request = (HttpWebRequest)WebRequest.Create(url);
 
             request.Method = "GET";
             request.AutomaticDecompression = DecompressionMethods.Deflate | DecompressionMethods.GZip;
 
             var content = string.Empty;
-            Smoothie smoothie = new Smoothie("test", " "," ", true);
 
             using (var response = (HttpWebResponse)request.GetResponse())
             {
