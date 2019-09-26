@@ -47,5 +47,29 @@ namespace Mini_Project___Web_Services___Winform
             }
             return content;
         }
+
+
+        public string GetExploreMethod(string url)
+        {
+            var request = (HttpWebRequest)WebRequest.Create(url);
+
+            request.Method = "GET";
+            request.AutomaticDecompression = DecompressionMethods.Deflate | DecompressionMethods.GZip;
+
+            var content = string.Empty;
+
+            using (var response = (HttpWebResponse)request.GetResponse())
+            {
+                using (var stream = response.GetResponseStream())
+                {
+                    using (var sr = new StreamReader(stream))
+                    {
+                        content = sr.ReadLine();
+                    }
+                }
+            }
+            return content;
+        }
+
     }
 }

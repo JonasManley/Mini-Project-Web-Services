@@ -47,16 +47,21 @@ namespace Mini_Project___Web_Services___Winform
         {
             string fruit1 = Fruit1.Text;
             string fruit2 = Fruit2.Text;
-            bool ice = IceBox.Checked;
-         
+            bool ice = IceBox.Checked; //not used atm.
             
-
-
-            string getSmoothie = APIcontroller.GetMethod($"https://miniproject-webservices-rest20190924043310.azurewebsites.net/api/smoothie?fruit1={fruit1}&fruit2={fruit2}&iceOrNot={ice}");
+            string getSmoothie = APIcontroller.GetExploreMethod($"https://miniproject-webservices-rest20190924043310.azurewebsites.net/api/smoothie?fruit1={fruit1}&fruit2={fruit2}");
             if (getSmoothie != "null")
             {
-                smoothieList.Items.Add(getSmoothie);
+                var trimedList = Regex.Replace(getSmoothie, @"[^\w\@-]", " ", RegexOptions.None, TimeSpan.FromSeconds(1.5));
+                string[] exploreSmoothieList = trimedList.Split(' ');
 
+                foreach (var smoothie in exploreSmoothieList)
+                {
+                    if (smoothie.Length > 0)
+                    {
+                        smoothieList.Items.Add(smoothie);
+                    }
+                }
             }
             else
             {
